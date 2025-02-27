@@ -1,11 +1,84 @@
 *{
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 body{
     background: white;
     color: black;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 header{
     height: 102px;
-    width: 10vw;
+    width: 100vw;
+    background: gray;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width: 80vw;
+    height: 62px;
+}
+header li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 33%;
+    margin: 18px 0 0 calc(33.5% - 209.5px);
+}
+header li a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.link-a-m{
+    margin: 0 20px 0 0;
+}
+.logo-i, .logo-t{
+    float: left;
+}
+.logo-i{
+    height: 62px;
+}
+.logo-t{
+    color: black;
+    font-size: 32px;
+    margin: 12px 0 0 5px;
+}
+.page-1{
+    color: orange;
+}
+.page-2{
+    color: skyblue;
+}
+.page-3{
+    color: rgb(5, 212, 223);
+}
+.page-4{
+    color: rgb(93, 88, 239);
+}
+.contact{
+    float: right;
+    background: orange;
+    color: white;
+    border: 0;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: "Quicksand", serif;
+    font-weight: 500;
+    margin: 5px 0 0 0;
 }
