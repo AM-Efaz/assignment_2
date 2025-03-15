@@ -22,6 +22,13 @@ button{
     font-style: normal;
 }
 
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
   body{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
@@ -73,7 +80,7 @@ header{
     margin: 0 15px 0 15px;
 }
 .l2{
-    color: dodgerblue;
+    color: rgb(32, 166, 255);
 }
 .l3{
     color: rgb(5, 212, 223);
@@ -148,4 +155,167 @@ header{
     font-size: 20px;
     margin: 20px 0 0 0;
     border: 0;
+}
+
+.sc{
+    border: 1px solid black;
+    width: 1400px;
+    height: 920px;
+    margin: 60px 0 0 calc(50vw - 700px);
+    text-align: center;
+}
+.sc-title{
+    font-size: 46px;
+    margin: 0 0 80px 0;
+}
+
+.sc-cards{
+    width: 100%;
+    height: 580px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    column-gap: 28px;
+    justify-content: center;
+}
+.sc-card{
+    border: 1px solid black;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.sc-card-1{
+    background: linear-gradient(180deg, rgb(190, 236, 255), rgb(255, 255, 255) 20%);
+}
+
+.sc-card-2{
+    background:linear-gradient(180deg, rgb(255, 255, 174), white 20%);
+}
+
+.sc-card-3{
+    background: linear-gradient(180deg, rgb(255, 176, 255), white 20%);
+}
+
+.sc-card img{
+    width: 37%;
+    margin: 10% 0 0 0;
+}
+
+.sc-card h1{
+    font-size: 30px;
+    margin: 20px 0 0 0;
+}
+
+.sc-card p{
+    margin: 30px 30px 0 30px;
+    font-size: 18px;
+}
+
+.sc-card h2{
+    font-size: 18px;
+    margin: 50px 0 0 0;
+}
+
+.sc-card-1 h2{
+    color: rgb(5, 212, 223);
+}
+.sc-card-2 h2{
+    color: orange;
+}
+.sc-card-3 h2{
+    color: rgb(135, 0, 255);
+}
+
+.arrow{
+    width: 60px;
+    height: 60px;
+    background: rgb(243, 158, 0);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    float: left;
+}
+.left-arrow{
+    margin: 80px 0 0 calc(50% - 60px);
+}
+.right-arrow{
+    margin: 80px 0 0 10px;
+}
+
+.os{
+    border: 1px solid black;
+    width: 100vw;
+    height: 1018px;
+    text-align: center;
+    background: linear-gradient(180deg, white, rgb(255, 222, 160) 70%);
+}
+
+.os-bg{
+    width: 100%;
+    height: 100%;
+    background: url("bg.png");
+    text-align: center;
+}
+
+.os-title{
+    font-size: 46px;
+    margin: 60px 0 80px 0;
+}
+
+.os-grid{
+    height: 760px;
+    width: 1440px;
+    border: 1px solid black;
+    margin: 0 0 0 calc(50% - 700px);
+    display: grid;
+    grid-template-columns: 48% 52%;
+    grid-template-rows: 1fr;
+}
+
+.os-g{
+    border: 1px solid black;
+}
+
+.os-g-1{
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 0;
+}
+
+.os button{
+    font-family: "Raleway", sans-serif;
+}
+
+.os-g1-o-btn{
+    height: 48px;
+    width: 174px;
+    border: 0;
+    border-radius: 48px;
+    background: rgb(60, 216, 232);
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: -29px;
+    float: left;
+    margin: 0 0 0 38px;
+}
+
+.os-g1-title{
+    float: left;
+    margin: 0 40px 0 40px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.os-g1-p{
+    float: left;
+    text-align: left;
+    margin: 60px 40px 0 40px;
+    font-size: 20px;
+    color: gray;
 }
