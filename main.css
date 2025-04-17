@@ -42,14 +42,15 @@ header{
     height: 102px;
     top: 0;
     left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: gray;
 }
 
 .h-menu{
     width: 1400px;
     height: 62px;
+    margin: 20px 0 0 calc(50% - 700px);
+    float: left;
+    background: rgb(97, 97, 97);
 }
 
 .logo, .logo-t{
@@ -68,6 +69,7 @@ header{
     text-align: center;
     margin: 18px 0 0 calc(50% - 390px);
 }
+
 .links{
     font-size: 20px;
 }
@@ -102,29 +104,47 @@ header{
     font-size: 20px;
 }
 
+.hb-menu{
+    display: none;
+    float: right;
+}
+
+.fa-solid, .fa-bars{
+    float: right;
+    font-size: 40px;
+    margin: 10px 0 0 0;
+}
+
+
 .banner{
-    max-width: 1400px;
+    width: 1400px;
     height: 575px;
-    border: 1px solid black;
-    margin: 0 0 0 calc(50vw - 700px);
+    border: 0px solid black;
+    margin: 0 0 0 calc(50% - 700px);
+    background: rgb(150, 150, 150);
 }
 
 .banner-i{
     float: right;
-    border: 1px solid black;
+    border: 0px solid black;
+    background: rgb(100, 100, 100);
 }
 
 .banner-t{
-    border: 1px solid black;
+    border: 0px solid black;
     width: 640px;
-    min-height: calc(100% - 137px);
+    height: 438px;
     margin: 137px 0 0 0;
     float: left;
+    background: rgb(80, 80, 80);
 }
 
 .ban-title{
-    width: 100%;
+    width: auto;
     height: 230px;
+    border: 1px solid black;
+    margin: 0 0 0 0;
+    background: rgb(129, 115, 115);
 }
 
 .ban-title h1{
@@ -144,6 +164,9 @@ header{
 
 .ban-p{
     font-size: 20px;
+    background: rgb(158, 158, 158);
+    margin: 0 13px 0 0;
+    width: 100%;
 }
 
 .en{
@@ -153,16 +176,18 @@ header{
     background: black;
     border-radius: 12px;
     font-size: 20px;
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 15px;
     border: 0;
 }
 
+
 .sc{
-    border: 1px solid black;
+    border: 0px solid black;
     width: 1400px;
     height: 920px;
-    margin: 60px 0 0 calc(50vw - 700px);
+    margin: 60px 0 0 calc(50% - 700px);
     text-align: center;
+    background: gray;
 }
 .sc-title{
     font-size: 46px;
@@ -172,7 +197,7 @@ header{
 .sc-cards{
     width: 100%;
     height: 580px;
-    border: 1px solid black;
+    border: 0px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100%;
@@ -180,7 +205,7 @@ header{
     justify-content: center;
 }
 .sc-card{
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 18px;
     text-align: center;
 }
@@ -246,6 +271,7 @@ header{
     margin: 80px 0 0 10px;
 }
 
+
 .os{
     width: 100%;
     height: 1090px;
@@ -267,12 +293,13 @@ header{
 
 .os-grid{
     height: 760px;
-    width: 1440px;
+    width: 1400px;
     margin: 0 0 0 calc(50% - 700px);
     display: grid;
     grid-template-columns: 48% auto;
     grid-template-rows: 1fr;
     column-gap: 20px;
+    background: gray;
 }
 
 .os-g-1{
@@ -310,7 +337,7 @@ header{
 .os-g1-p{
     float: left;
     text-align: left;
-    margin: 60px 40px 0 40px;
+    margin: 30px 40px 0 40px;
     font-size: 20px;
     color: gray;
 }
@@ -363,8 +390,10 @@ header{
 
 .os-g2-grid p{
     font-weight: 800;
-    margin: 38px 38px 0 38px;
+    margin: 48px 38px 0 38px;
     text-align: left;
+    border: 1px solid black;
+    position: relative;
 }
 
 .va{
@@ -376,4 +405,78 @@ header{
     border-radius: 12px;
     font-weight: bold;
     margin: 80px 0 60px 0;
+}
+
+
+.end{
+    background: rgb(29, 135, 255);
+    width: 100%;
+    height: 519px;
+}
+
+.e-element{
+    height: 299px;
+    width: 1400px;
+    border: 0px solid black;
+    margin: 100px 0 0 calc(50% - 700px);
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 1fr;
+    position: absolute;
+    background: rgb(54, 148, 255);
+}
+
+.e-element1{
+    padding: 0 0 0 20px;
+}
+
+.e-sub-element{
+    border: 1px solid white;
+    color: white;
+}
+
+.e-e-logo, .e-e-logo-title{
+    float: left;
+}
+
+.e-e-logo-title{
+    height: 83px;
+    width: 200px;
+    margin: 0 0 0 10px;
+}
+
+.e-e-logo-title h1{
+    font-size: 42px;
+    position: absolute;
+    top: 0;
+}
+
+.e-e-logo-title h1:last-child{
+    margin: 40px 0 0 0;
+}
+
+.e-e-p{
+    margin: 150px 0 0 5px;
+    font-size: 20px;
+}
+
+.abs{
+    font-size: 24px;
+    margin: 0 0 0 100px;
+}
+
+.e-element2 a{
+    margin: 0 0 0 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.kit{
+    font-size: 26px;
+    margin: 0 0 0 5px;
+}
+
+.e-element3 img{
+    margin: 20px 0 0 5px;
 }
